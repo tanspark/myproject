@@ -1,0 +1,142 @@
+/*------微信公众号设置----*/
+#wechat {
+	float: right;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/wx.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+#code-wechat {
+	z-index: 10005;
+	display: none;
+	margin-top: 35px;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	background-image: url("../admin/watch-img/code-wx.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+#wechat:hover {
+	background-image: url("../admin/watch-img/code-wx.png");
+}
+
+#wechat:hover>#code-wechat{
+	display: block;
+}
+
+
+
+
+/*------bili设置----*/
+#bili {
+	float: right;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/bili.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+#code-bili {
+	z-index: 10005;
+	display: none;
+	margin-top: 35px;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	background-image: url("../admin/watch-img/code-bili.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+#bili:hover {
+	background-image: url("../admin/watch-img/code-bili.png");
+}
+
+#bili:hover>#code-bili{
+	display: block;
+}
+
+
+
+
+/*------微博设置----*/
+#weibo {
+	float: right;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/wb.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+#code-weibo {
+	z-index: 10005;
+	display: none;
+	margin-top: 35px;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	background-image: url("../admin/watch-img/code-wb.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+#weibo:hover {
+	background-image: url("../admin/watch-img/code-wb.png");
+}
+
+#weibo:hover>#code-weibo{
+	display: block;
+}
+
+
+
+
+
+/*------抖音设置----*/
+#douyin {
+	float: right;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/dy.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+
+#code-douyin {
+	z-index: 10005;
+	display: none;
+	margin-top: 35px;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	background-image: url("../admin/watch-img/code-dy.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+#douyin:hover {
+	background-image: url("../admin/watch-img/code-dy.png");
+}
+
+#douyin:hover>#code-douyin{
+	display: block;
+}
+

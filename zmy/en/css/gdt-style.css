@@ -1,0 +1,156 @@
+/* Elements----------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.side-bar a,.qq-tips i{
+	background-image: url(../images/gdt-img.png);
+	background-repeat: no-repeat;
+}
+.side-bar a,.chat-tips i{
+	background-image: url(../images/gdt-img.png);
+	background-repeat: no-repeat;
+}
+.side-bar a,.blog-tips i{
+	background-image: url(../images/gdt-img.png);
+	background-repeat: no-repeat;
+}
+.side-bar a,.mail-tips i{
+	background-image: url(../images/gdt-img.png);
+	background-repeat: no-repeat;
+}
+
+/*右侧悬浮icon*/
+.side-bar {
+	width: 66px;
+	position: fixed;
+	top: 250px;
+	right: 0px;
+	font-size: 0;
+	line-height: 0;
+	z-index: 100;
+}
+.side-bar a {
+	width: 66px;
+	height: 66px;
+	display: block;
+	background-color: #dddddd;
+	margin-bottom: 2px;
+}
+.side-bar a:hover {
+	 background-color: #669fdd;
+ }
+
+.side-bar .icon-qq {
+	background-position: 0 -62px;
+}
+.side-bar .icon-qq:hover .qq-tips {
+	display: block;
+}
+.side-bar .icon-chat {
+	background-position: 0 -130px;
+}
+.side-bar .icon-chat:hover .chat-tips {
+	display: block;
+}
+.side-bar .icon-blog {
+	background-position: 0 -198px;
+}
+.side-bar .icon-blog:hover .blog-tips {
+	display: block;
+}
+.side-bar .icon-mail {
+	background-position: 0 -266px;
+}
+.side-bar .icon-mail:hover .mail-tips {
+	display: block;
+}
+.side-bar .icon-totop {
+	background-position: 0 -334px;
+}
+
+.qq-tips {
+	padding: 20px;
+	border: 1px solid #d1d2d6;
+	position: fixed;
+	right: 78px;
+	background-color: #ffffff;
+	display: none;
+}
+
+.qq-tips i {
+	width: 9px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	right: -9px;
+	top: 80px;
+}
+.qq-tips img {
+	width: 138px;
+	height: 138px;
+}
+
+.chat-tips {
+	padding: 20px;
+	border: 1px solid #d1d2d6;
+	position: fixed;
+	right: 78px;
+	background-color: #ffffff;
+	display: none;
+}
+.chat-tips i {
+	width: 9px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	right: -9px;
+	top: 80px;
+}
+.chat-tips img {
+	width: 138px;
+	height: 138px;
+}
+
+.blog-tips {
+	padding: 20px;
+	border: 1px solid #d1d2d6;
+	position: fixed;
+	right: 78px;
+	background-color: #ffffff;
+	display: none;
+}
+.blog-tips i {
+	width: 9px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	right: -9px;
+	top: 80px;
+}
+.blog-tips img {
+	width: 138px;
+	height: 138px;
+}
+
+.mail-tips {
+	padding: 20px;
+	border: 1px solid #d1d2d6;
+	position: fixed;
+	right: 78px;
+	background-color: #ffffff;
+	display: none;
+}
+.mail-tips i {
+	width: 9px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	right: -9px;
+	top: 80px;
+}
+.mail-tips img {
+	width: 138px;
+	height: 138px;
+}
